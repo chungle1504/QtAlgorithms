@@ -16,13 +16,6 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/Merge.cpp \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/Search.cpp \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/ShapeComparison.cpp \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/Sort.cpp \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/StructComparison.cpp \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/Utils.cpp \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/main.cpp \
     Merge.cpp \
     Search.cpp \
     ShapeComparison.cpp \
@@ -34,11 +27,6 @@ SOURCES += \
     operation.cpp
 
 HEADERS += \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/Merge.h \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/Node.h \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/Search.h \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/Sort.h \
-    ../../../Dropbox/akautauto/datatest/duc-anh/Algorithm/Utils.h \
     Merge.h \
     Node.h \
     Search.h \
